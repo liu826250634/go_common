@@ -1,0 +1,12 @@
+# this is redis config file
+[list]
+    [list.default]
+        proxy_list = ["127.0.0.1:6379"]
+        password = ""
+        db = 0
+        conn_timeout = 50
+        read_timeout = 100
+        write_timeout = 100
+        redis_max_idle    = 10 # 最大空闲连接数
+        redis_idle_timeout_sec  = 100 # 最大空闲连接时间
+
